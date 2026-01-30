@@ -8,14 +8,45 @@
   <link rel="stylesheet" href="css/layout.css">
 </head>
 <body>
-  <header>
-    <h1>SyntaxWear</h1>
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <div class="logo">
+        <!-- Logo aqui (imagem ou SVG) -->
+      </div>
+      <nav class="main-nav" role="navigation" aria-label="Navegação principal">
+        <!-- Links de navegação -->
+      </nav>
+    </div>
   </header>
-  <main>
-    <p>Bem-vindo ao projeto.</p>
+
+  <main role="main">
+    <section class="hero" aria-label="Destaque principal">
+      <!-- Estrutura do hero (apenas marcador macro) -->
+    </section>
+
+    <section class="categories" aria-label="Categorias de tênis">
+      <!-- Seção de categorias de tênis (estrutura macro) -->
+    </section>
+
+    <section class="products-grid" aria-label="Produtos em destaque">
+      <!-- Grid de produtos em destaque (estrutura macro) -->
+    </section>
   </main>
-  <footer>
-    <p>&copy; 2026 SyntaxWear</p>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-inner">
+      <section class="contact" aria-label="Informações de contato">
+        <!-- Contato: endereço, e-mail, telefone -->
+      </section>
+
+      <nav class="footer-links" role="navigation" aria-label="Links do rodapé">
+        <!-- Links úteis e políticas -->
+      </nav>
+
+      <div class="copyright">
+        <!-- Copyright e créditos -->
+      </div>
+    </div>
   </footer>
 </body>
 </html>
