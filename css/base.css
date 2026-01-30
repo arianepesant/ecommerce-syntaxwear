@@ -1,2 +1,4 @@
 /* Arquivo limpo: estilos removidos */
-
+body{
+    font-family: var(--fonte-principal);
+}
