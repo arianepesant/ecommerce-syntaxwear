@@ -10,7 +10,7 @@ z-index: 999;
 display: flex;
 justify-content: space-between;
 align-items: center;
-padding: 20px 28px;
+padding: 0.225rem 1.25rem;
 background-color: white;
 }
 
@@ -20,7 +20,7 @@ background-color: white;
 }
 
 .logo img{
-    height: 40px;
+    height: 48px;
 }
 
 .nav-center ul{
@@ -31,6 +31,7 @@ background-color: white;
 .nav-center a,
 .nav-right a{
     font-size: 1.5rem;
+    color: #333333;
 }
 .nav-center a:hover,
 .nav-right a:hover{
